@@ -9,7 +9,7 @@ public class RMIserver extends UnicastRemoteObject implements Multiplication{
 	public RMIserver() throws RemoteException{
 		super();
 	}
-	public int multiply(int a, int b) throws RemoteException{
+	public int multiply(int a, int b) throws RemoteException,Exception{
 		return a*b;
 	}
 
